@@ -16,7 +16,8 @@ var nombreVariable;
 Inicializar variable:
 Asignar un valor al momento de crear la variable
 */
-var gradoEstudiantes="10A";
+var gradoEstudiantes=
+
 /*
 Asignar un valor:
 Igualar una variable existente a un nuevo valor
@@ -41,4 +42,87 @@ const PI=3.1416;
 console.log(edadUsuario); // imprimir variable
 console.log("hola este es un mensaje"); // imprimir un mensaje
 console.log("El usuario tiene " + edadUsuario + " años"); //concatena mensajes y variables
+
+//Operadores
+//Suma
+var suma;
+suma=5+4;
+console.log(suma);
+
+var a=12;
+suma=a+8;
+console.log(suma);
+
+var b=20
+suma=a+b
+console.log(suma);
+
+//Resta
+var resultado;
+resultado=a-b; //-8
+console.log(resultado);
+resultado=b-a; //8
+console.log(resultado);
+
+//Multiplicacion
+var producto;
+producto=a*b;
+console.log(producto);
+
+//Division 
+var division;
+division=a/b;
+console.log(division);
+division=b/a;
+console.log(division);
+
+//Orden de operaciones
+var result;
+result=a*b;
+console.log(result);
+result=a*b-10;
+console.log(result);
+result=a*(b-10);
+console.log(result);
+
+//Exponente/potencia
+var exp=3**2;
+console.log(exp);
+exp=3**3;
+console.log(exp);
+
+//Cadenas o String
+var cadenita1="3";
+var cadenita2="5";
+var sumaCadenas=cadenita1+cadenita2;
+console.log(sumaCadenas);
+
+var nombrecito="Andrea";
+var apellidito="Leal";
+var nomCompleto=nombrecito+ " " +apellidito;
+console.log(nomCompleto);
+
+var longitud=nombrecito.length;
+console.log(longitud);
+console.log(nomCompleto.length);
+
+//Encontrar caracteres dada la posicion en el vector
+var primeraLetra;
+primeraLetra=nombrecito[0];
+console.log(primeraLetra);
+console.log(nombrecito[1]);
+
+//Encontrar la ultima posicion de una cadena o vector
+//Se debe buscar la longitud de la cadena y restarle 1 para encontrar la ultima letra
+console.log(nombrecito[nombrecito.length-1]);
+
+//Valores inmutables
+//Las posiciones de una cadena se pueden consultar pero no se puede reasignar su valor
+nombrecito[0]="P";
+console.log(nombrecito);
+nombrecito="Daniela";
+console.log(nombrecito);
+
+
+
 
