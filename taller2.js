@@ -78,11 +78,3 @@ microgramo=(centimetros*100000);
 gramos=(kilometro*0,1);
 kilometro2=(decilitro*1e-6);
 milimetro=(litro*1000000);
-
-
-
-
-
-
-
-
