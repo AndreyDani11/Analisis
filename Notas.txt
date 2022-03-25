@@ -1,3 +1,6 @@
+Andre y Dani
+
+
 Taller 1: Nota 5
 
 Taller 2: Nota 3.2
@@ -8,3 +11,8 @@ Taller 2: Nota 3.2
     * De manera general, los mensajes de como muestra los resultados, no cumplem con lo que se solicitó en el Taller
     * lineas 77, 78, 79, 80 operaciones incorrectas
     * No muestra resultados del punto 7. Nunca realizó pruebas.
+
+Taller 3 (recuperación): Nota 4.2
+- A julian y a Jeffer, ese 4.2 se divide en dos notas. Una para cada taller y así lograr pasar. Es decir, 0.5 para sacar 3.5 en el primer taller y el 3.7 restante queda como nota del segundo
+- Andrea Tiene 4.2 en el segundo taller    
+    * Faltó punto 6
