@@ -153,7 +153,7 @@ var P;
 var Alt=parseInt(prompt("Ingrese el valor de la altura"));
 var base=parseInt(prompt("Ingrese el valor de la base"));
 P=Alt+base+Alt+base;
-console.log("El valor del perimetro es " + P);
+console.log("El valor del p erimetro es " + P);
 
 
 
