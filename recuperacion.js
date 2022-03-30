@@ -34,6 +34,14 @@ var horas;
 horas=prompt("por favor ingrese la cantidad de horas");
 pesos= horas*120*60;
 console.log("el valor a pagar es " + pesos + " pesos");
+//Punto 6
+var horaClase;
+var cobrar2;
+var cobra1;
+cobrar1 = 40000;
+cobrar2 = 25000;
+horaClase=40000 + (25000(-1));
+console.log("el valor a pagar es" + horaClase*cobra1 + "o" + horaClase);
 
 
 
