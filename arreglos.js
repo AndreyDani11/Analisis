@@ -55,11 +55,11 @@ console.log("Elimina .shift" + arreglo);
 
 //Solucion
 
-var materias=["Analisis","biologia","desarrollo"];
-console.log("sin arreglo" + materias);
+var materias=["Analisis","tecnologia","desarrollo"];
+console.log("remplazar " + materias);
 materias[2]="BBDD"
-console.log("arreglado" + materias);
+console.log("convercion " + materias);
 materias.pop();
 materias.unshift("introduccion");
-console.log("vector convertido" + materias);
+console.log("vector convertido " + materias);
 
