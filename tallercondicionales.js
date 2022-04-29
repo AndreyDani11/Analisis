@@ -88,7 +88,7 @@ if (Valor2==0){
 }
 
 //Punto 11
-
+var tipo
 var Dia="jueves";
 if (Dia=="lunes"){
 console.log ("Hoy toca arroz con pollo.");
@@ -108,3 +108,13 @@ console.log ("Hoy toca chuleta de cerdo/pollo");
 
 //punto 12
 
+var caracter="d";
+if (caracter=="a"||caracter=="e"||caracter=="i"||caracter=="o"||caracter=="u"){  
+console.log("el caracter es una vocal");
+}else if (caracter=="1"||caracter=="2"||caracter=="3"||caracter=="4"||caracter=="5"||caracter=="6"||caracter=="7"||caracter=="8"||caracter=="9"){
+  console.log("el caracter es un numero");
+}else { 
+  tipo= "una consonante"
+  console.log("el caracter ingresado es " + tipo);
+}
+  
