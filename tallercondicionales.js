@@ -88,7 +88,8 @@ if (Valor2==0){
 }
 
 //Punto 11
-var tipo
+var 
+tipo
 var Dia="jueves";
 if (Dia=="lunes"){
 console.log ("Hoy toca arroz con pollo.");
