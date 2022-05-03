@@ -16,3 +16,13 @@ Taller 3 (recuperación): Nota 4.2
 - A julian y a Jeffer, ese 4.2 se divide en dos notas. Una para cada taller y así lograr pasar. Es decir, 0.5 para sacar 3.5 en el primer taller y el 3.7 restante queda como nota del segundo
 - Andrea Tiene 4.2 en el segundo taller    
     * Faltó punto 6
+
+****************************************** segundo periodo
+
+Taller 1: Nota 4.6
+    * linea 49 debe tomar tambien a 50 y 80. falta el =
+    * linea 51, en vez de >= 100 debía ser < 100
+    * linea 91 debe ir en 110
+
+
+enlace examen: https://acortar.link/WAVSjX
