@@ -61,5 +61,7 @@ if(palabra=="Red"){
     console.log ("aun no posee su traduccion");
   }
 
+//Punto 6
+
 
 
