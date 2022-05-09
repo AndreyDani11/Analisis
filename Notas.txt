@@ -26,3 +26,7 @@ Taller 1: Nota 4.6
 
 
 enlace examen: https://acortar.link/WAVSjX
+
+Examen: nota 4.3
+    * punto 4, y num1 no es menor que num2 que? debe haber un mensaje para ese caso también
+    * Punto 6, no está resuelto. No suma puntos
