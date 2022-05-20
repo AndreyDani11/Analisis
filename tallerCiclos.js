@@ -19,7 +19,7 @@ ciclo2 += 3;
 console.log("punto 3");
 var ciclo3=2;
 while(ciclo3 < 50){ 
-console.log("va en la interaccion" + ciclo3);
+console.log(ciclo3 + "es par");
 ciclo3+=2;
 }
 
@@ -35,9 +35,9 @@ ciclo4+=2;
 //punto5
 console.log("punto 5");
 var ciclo5=prompt("ingrese un numero impar");
-while(ciclo5 >= 1){
+while(ciclo5 %2==0){
 console.log(ciclo5)
-ciclo5=prompt("ingrese un negativo para detenerse");
+ciclo5=prompt("ingrese un impar para detenerse");
 }
 
 //punto6
@@ -55,15 +55,65 @@ console.log("el total del acumuladores es " + acumulador);
 
 //punto7
 console.log("punto 7")
-var intentos
+var intentos=0
 var comida=prompt("ingrese la comida")
-while(comida == "salpicon"){ 
-    console.log("el usuario gano una andrea")
+while(comida != "salpicon"){ 
+    comida=prompt("ingrese la comida")
     intentos+=1
     }
+    console.log("El usuario gano la rifa en " + intentos + "intentos")
     console.log(intentos)
 
 //punto8
 console.log("punto 8")
 var nombreEstudiante=prompt("ingrese el nombre del estudiante");
-var notas=prompt("ingrese ")
+var numerodenotas=prompt("ingrese el numero de notas");
+var notas
+var Promedio
+var contadorcito=1
+var total_notas=0
+
+while(contadorcito<=numerodenotas){
+    notas=parseFloat(prompt("Ingrese las notas"))
+    if(notas>5 || notas<1)
+    console.log("El valor es incorrecto debe estar entre 1 y 5")
+}else{
+    total_notas=notas+total_notas
+    Promedio=total_notas/numerodenotas
+    contadorcito+=1
+}
+if(Promedio>=3.5){
+    console.log("El estudiante", nombreEstudiante, "aprobo la asignatura y su nota final es " ,Promedio)
+}else{
+    console.log("El estudiante", nombreEstudiante, " reprobo la asignatura y su nota final es ", Promedio)
+}
+
+//punto9
+var numero_estudiantes=prompt("ingrese el numero de estudiantes")
+var contadorcitoestudiantes=1
+while(contadorcitoestudiantes<=numero_estudiantes){
+    var nombreEstudiante=prompt("Ingrese el nombre del estudiante")
+    var numero_notas=promt("Ingrese el numero de notas")
+    var totalnotas=0
+    var Notas
+    var prom
+    var contador=1
+    while(contador<=numero_notas){
+        Notas=parseFloat(promt("Digite las notas del estudiante"))
+
+        if(Notas>5 || Notas<1){
+            console.log("La nota es incorrecta esta debe ser entre 1 y 5")
+        }else{
+            totalnotas=Notas+totalnotas
+            prom=totalnotas/numero_notas
+            contador+=1
+        }
+    }
+
+    if(prom>=3.5){
+        console.log("El estudiante " ,nombreEstudiante, "aprobo la materia y su nota final es " ,prom)
+    }else{
+        console.log("El estudiante " ,nombreEstudiante, "reprobo la materia y su nota final es " ,prom)
+    }
+    contadorcitoestudiantes+=1
+}
