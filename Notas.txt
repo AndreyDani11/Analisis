@@ -27,6 +27,15 @@ Taller 1: Nota 4.6
 
 enlace examen: https://acortar.link/WAVSjX
 
-Examen: nota 4.3
+Examen condicionales: nota 4.3
     * punto 4, y num1 no es menor que num2 que? debe haber un mensaje para ese caso también
     * Punto 6, no está resuelto. No suma puntos
+
+Taller while: nota 4
+    * punto 5, no debe ser un numero negativo, es impar para detener el ciclo. La condicion es incorrecta
+    * linea 54, el mensaje no tiene nada que ver con lo que entrega
+    * El ciclo debe repetirse mientras la respuesta del usuario sea diferente a salpicon, cuando el usuario diga la respuesta correcta, se detiene y lo felicita
+    * bonus no realizados
+
+examen while: nota
+    * No está el archivo en github
