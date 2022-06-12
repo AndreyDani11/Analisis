@@ -37,5 +37,9 @@ Taller while: nota 4
     * El ciclo debe repetirse mientras la respuesta del usuario sea diferente a salpicon, cuando el usuario diga la respuesta correcta, se detiene y lo felicita
     * bonus no realizados
 
-examen while: nota
-    * No está el archivo en github
+examen while: nota 4
+    * punto 3 y 4, no debían preguntar por la cantidad de artículos.
+    * punto 5, no funciona correctamente  
+
+ciclo for: nota ***No se subió el archivo***
+    * 
