@@ -51,7 +51,7 @@ valoraSumar = parseInt(prompt("ingrese la edad del estudiante"))
 acumulador=valoraSumar+acumulador
 ciclo6+=1;
 }
-console.log("el total del acumuladores es " + acumulador);
+console.log("El total de edades de los estudiantes es " + acumulador);
 
 //punto7
 console.log("punto 7")
