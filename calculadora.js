@@ -59,7 +59,7 @@ if(eleccion == 1){
 }else if(eleccion == 9){
     var resultadoPotencia = potencia(num1, num2);
     console.log("La quinta parte de la potencia de " + num1 + " a la " + num2 + " es " + division(resultadoPotencia, 5))
-}else if(eleccion == 10){
+}else if(eleccion == 10){   
     var resultadoDivision = division(num1, num2)
 
 }else if(eleccion == 11){
