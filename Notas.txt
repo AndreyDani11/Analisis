@@ -44,3 +44,16 @@ examen while: nota 5
 ciclo for: nota ***No se subió el archivo*** 5 
     *
     *
+
+
+Geometría:
+    Nota: 4.6 debe tener en cuenta valores u opciones inválidas
+
+
+
+
+cuarto periodo
+
+taller 1:
+    nota: 4.6
+        * la lista de lugares debe contener enlaces <a>
